@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Portfolio | PBG Specialist</title>
+    <style>
+        /* Basic Styling (CSS) */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: #f4f7f2;
+        }
+        header {
+            background-color: #2d5a27; /* Dark Green */
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        nav {
+            background: #1e3d1a;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 2rem;
+        }
+        .section {
+            background: white;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2d5a27;
+            border-bottom: 2px solid #2d5a27;
+            padding-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #2d5a27;
+            color: white;
+            margin-top: 2rem;
+        }
+     
+        /* Farm Gallery Styling */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .gallery img:hover {
+            transform: scale(1.05); /* Slight zoom when you hover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Agricultural Innovation & Research</h1>
+    <p>BSc (Hons) Agriculture | Plant Breeding & Genetics Specialist</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">PBG Research</a>
+    <a href="#farm">Farm Management</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="about" class="section">
+        <h2>Professional Profile</h2>
+        <p>As an enthusiast in agricultural sciences, my goal is to implement technical and research-driven reforms. With a background in Plant Breeding and Genetics (PBG), I focus on modernizing cultivation techniques to ensure food security and sustainable farming.</p>
+    </section>
+
+    <section id="research" class="section">
+        <h2>Research & Expertise</h2>
+        <ul>
+            <li><strong>Genetic Improvement:</strong> Knowledge in TILLING, EcoTILLING, and germplasm conservation.</li>
+            <li><strong>Biotechnology:</strong> Expertise in micropropagation and somatic hybridization.</li>
+            <li><strong>Data Analysis:</strong> Skilled in statistical hypothesis testing (Z-tests, t-tests) for agricultural trials.</li>
+        </ul>
+    </section>
+
+    <section id="farm" class="section">
+        <h2>Farm Management & Operations</h2>
+        <p>Currently overseeing 35 acres of agricultural land, integrating modern Plant Breeding techniques with traditional farming practices.</p>
+        
+        <div class="gallery">
+            <img src="images/farm1.jpg.png" alt="Farm Overview">
+            <img src="images/farm2.jpg.png" alt="Crop Progress">
+            <img src="images/farm3.jpg.png" alt="Research Plot">
+        </div>
+        <section id="projects" class="section">
+        <h2>Advanced Breeding Projects</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 30px;">
+            
+            <div style="flex: 1; min-width: 300px;">
+                <h3>TILLING & Mutation Breeding</h3>
+                <p>Focusing on <strong>Targeting Induced Local Lesions in Genomes (TILLING)</strong>. This non-transgenic approach allows us to identify specific point mutations in crop populations, accelerating the development of varieties with improved yield and stress resistance.</p>
+                <img src="images/germplasm.jpg.png" alt="tilling.jpg.png" style="width:100%; border-radius:8px; margin-top:10px; border: 1px solid #ddd;">
+                
+            </div>
+
+            <div style="flex: 1; min-width: 300px;">
+                <h3>Germplasm Evaluation</h3>
+                <p>Systematic characterization of plant <strong>germplasm</strong> to identify traits for climate resilience. By preserving and studying genetic diversity, we can secure the raw materials needed for modern crop improvement and agricultural reform.</p>
+                <img src="images/tilling.jpg.png" alt="Germplasm Collection" style="width:100%; border-radius:8px; margin-top:10px; border: 1px solid #ddd;">
+                
+            </div>
+
+        </div>
+    </section>
+    </section>
+<section id="projects" class="section">
+        <h2>Key Research Projects</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+            <div style="flex: 1; min-width: 300px;">
+                <h3>TILLING & Mutation Breeding</h3>
+                <p>Developing non-transgenic crop varieties by identifying induced point mutations. This research is vital for improving crop resilience without the regulatory hurdles of GMOs.</p>
+                
+            </div>
+            <div style="flex: 1; min-width: 300px;">
+                <h3>Germplasm Conservation</h3>
+                <p>Collecting and preserving wild relatives of crops to maintain genetic diversity, ensuring future generations have the traits needed to combat climate change.</p>
+                
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Technical Expertise</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+            <span style="background: #e8f0e6; color: #2d5a27; padding: 8px 15px; border-radius: 20px; font-weight: bold; border: 1px solid #2d5a27;">Z-test & T-test Analysis</span>
+            <span style="background: #e8f0e6; color: #2d5a27; padding: 8px 15px; border-radius: 20px; font-weight: bold; border: 1px solid #2d5a27;">Micropropagation</span>
+            <span style="background: #e8f0e6; color: #2d5a27; padding: 8px 15px; border-radius: 20px; font-weight: bold; border: 1px solid #2d5a27;">Mutation Breeding</span>
+            <span style="background: #e8f0e6; color: #2d5a27; padding: 8px 15px; border-radius: 20px; font-weight: bold; border: 1px solid #2d5a27;">Genetic Analysis</span>
+        </div>
+    </section>
+    <section id="contact" class="section" style="text-align: center;">
+        <h2>Connect for Collaboration</h2>
+        <p>I am looking for opportunities to contribute to agricultural reforms and advanced plant breeding research.</p>
+
+        <a href="my_cv.pdf.pdf" download style="display: inline-block; background-color: #2d5a27; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px;">
+            Download My Full CV
+        </a>
+
+        <div style="margin-top: 20px;">
+            <p>Email: muhammadwaqas37121122@gmail.com</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 | PBG Research & Agricultural Management</p>
+    <p>Developing the future of sustainable crops.</p>
+</footer>
+
+</body>
+</html>
